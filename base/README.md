@@ -16,7 +16,7 @@ $ # Choose "Continue installation"
 ```
 - Manually download Gazebo models from [here](https://bitbucket.org/osrf/gazebo_models/downloads/).
 ```
-$ cd ~/.gazebo
+$ cd ~/.gazebo # if you don't have ~/.gazebo, just create one yourself
 $ mkdir models && cd models
 $ apt-get install unzip
 $ unzip ${DOWNLOAD_LINK}
@@ -53,7 +53,7 @@ X Error of failed request:  BadValue (integer parameter out of range for operati
   Current serial number in output stream:  31
 ```
 - There is some problems in [Gazebo database](http://gazebosim.org/models/). Download models manually. 
-[Reference](https://answers.ros.org/question/199401/problem-with-indigo-and-gazebo-22/)
+([Reference](https://answers.ros.org/question/199401/problem-with-indigo-and-gazebo-22/))
 ```
 Warning [ModelDatabase.cc:334] Getting models from[http://gazebosim.org/models/]. This may take a few seconds.
 Warning [gazebo.cc:215] Waited 1seconds for namespaces.
